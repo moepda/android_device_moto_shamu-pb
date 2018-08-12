@@ -150,3 +150,6 @@ DEVICE_MATRIX_FILE := device/moto/shamu/compatibility_matrix.xml
 
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
+
+# Recovery
+LZMA_RAMDISK_TARGETS := recovery
